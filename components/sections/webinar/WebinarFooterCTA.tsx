@@ -20,7 +20,7 @@ const stars = [
 
 export default function WebinarFooterCTA() {
   return (
-    <section className="bg-white px-5 py-12 sm:px-0 sm:py-20 lg:py-24">
+    <footer className="bg-white px-5 py-12 sm:px-0 sm:py-20 lg:py-24">
       <div className="w-full px-0 sm:px-8 lg:px-12 xl:px-20">
         <div className="relative mx-auto max-w-[1240px] overflow-hidden rounded-lg bg-[#C4625C] px-6 py-12 text-center text-white sm:px-10 lg:py-14">
           <div
@@ -61,6 +61,6 @@ export default function WebinarFooterCTA() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

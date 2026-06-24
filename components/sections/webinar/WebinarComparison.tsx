@@ -39,8 +39,9 @@ export default function WebinarComparison() {
           </h2>
         </header>
 
-        <div className="no-scrollbar mt-12 max-w-full overflow-x-auto pb-3 lg:overflow-visible lg:pb-0">
-          <div className="grid min-w-[760px] grid-cols-[150px_260px_350px] items-stretch lg:min-w-0 lg:grid-cols-[minmax(180px,1fr)_minmax(300px,1.35fr)_minmax(360px,1.45fr)]">
+        <div className="mt-12 max-w-full overflow-x-hidden [contain:layout_paint]">
+          <div className="no-scrollbar w-full overflow-x-auto overscroll-x-contain pb-3 [contain:layout_paint] lg:overflow-visible lg:pb-0">
+            <div className="grid min-w-[760px] grid-cols-[150px_260px_350px] items-stretch lg:min-w-0 lg:grid-cols-[minmax(180px,1fr)_minmax(300px,1.35fr)_minmax(360px,1.45fr)]">
             <div className="border-b border-scraped-silver/70 px-8 py-6 font-sans text-[20px] font-semibold text-scraped-steel">
               Challenge
             </div>
@@ -73,6 +74,7 @@ export default function WebinarComparison() {
                 </div>
               );
             })}
+            </div>
           </div>
         </div>
 
