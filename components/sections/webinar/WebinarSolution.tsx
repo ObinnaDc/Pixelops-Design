@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { assetPath } from "@/lib/paths";
+
 const solutionImage = "/assets/webinar/image-217-e736b0e7.svg";
 
 export default function WebinarSolution() {
@@ -9,7 +11,7 @@ export default function WebinarSolution() {
         <div className="grid items-stretch gap-10 lg:grid-cols-2 lg:gap-14">
           <div className="relative min-h-[300px] w-full overflow-hidden rounded-[24px] bg-brand-paper sm:min-h-[360px] lg:order-1 lg:h-full lg:min-h-0">
             <Image
-              src={solutionImage}
+              src={assetPath(solutionImage)}
               alt="Webinar video being repurposed on a laptop"
               fill
               sizes="(max-width: 1023px) calc(100vw - 40px), calc(50vw - 108px)"

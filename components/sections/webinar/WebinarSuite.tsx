@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { assetPath } from "@/lib/paths";
+
 const deliverables = [
   {
     title: "Premium Lead Magnet Guide",
@@ -122,7 +124,7 @@ export default function WebinarSuite() {
 
               <div className="relative min-h-[260px] bg-brand-light sm:min-h-[400px] lg:min-h-full">
                 <Image
-                  src={item.src}
+                  src={assetPath(item.src)}
                   alt={item.alt}
                   fill
                   sizes="(max-width: 1023px) calc(100vw - 40px), 480px"

@@ -8,6 +8,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, type MouseEvent } from "react";
 
+import { assetPath } from "@/lib/paths";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -95,7 +96,7 @@ export default function Navbar() {
           className="flex min-w-0 shrink-0 items-center gap-2.5 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-secondary focus-visible:ring-offset-2"
         >
           <Image
-            src={logoSrc}
+            src={assetPath(logoSrc)}
             alt=""
             width={44}
             height={44}
@@ -174,7 +175,7 @@ export default function Navbar() {
                     <div className="flex items-center justify-between gap-4">
                       <Dialog.Title className="flex min-w-0 items-center gap-2.5 font-display text-xl font-bold tracking-[-0.03em]">
                         <Image
-                          src={logoSrc}
+                          src={assetPath(logoSrc)}
                           alt=""
                           width={38}
                           height={38}

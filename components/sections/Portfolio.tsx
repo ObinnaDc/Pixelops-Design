@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
+import { assetPath } from "@/lib/paths";
 import { cn } from "@/lib/utils";
 
 const categories = [
@@ -158,7 +159,7 @@ export default function Portfolio() {
             >
               <div className="relative aspect-[3/2] w-full max-w-[480px] overflow-hidden rounded-2xl bg-brand-dark/5">
                 <Image
-                  src={project.image}
+                  src={assetPath(project.image)}
                   alt={`${project.title} design project`}
                   fill
                   priority={index < 2}

@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { assetPath } from "@/lib/paths";
+
 const problemImage = "/assets/webinar/frame-39-1663b569.svg";
 
 const problemItems = [
@@ -48,7 +50,7 @@ export default function WebinarProblem() {
 
           <div className="relative min-h-[300px] w-full overflow-hidden rounded-[24px] bg-brand-paper sm:min-h-[360px] lg:h-full lg:min-h-0">
             <Image
-              src={problemImage}
+              src={assetPath(problemImage)}
               alt="Overworked marketer sitting at a desk"
               fill
               sizes="(max-width: 1023px) calc(100vw - 40px), calc(50vw - 108px)"

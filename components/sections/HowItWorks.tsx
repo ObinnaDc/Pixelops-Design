@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+import { assetPath } from "@/lib/paths";
+
 const steps = [
   {
     icon: "/assets/programming-script-2-streamline-flex-2326cc8a.svg",
@@ -87,7 +89,7 @@ export default function HowItWorks() {
               <span className="sr-only">Step {index + 1}</span>
               <div className="relative size-24 sm:size-[100px]">
                 <Image
-                  src={step.icon}
+                  src={assetPath(step.icon)}
                   alt={step.alt}
                   fill
                   sizes="100px"

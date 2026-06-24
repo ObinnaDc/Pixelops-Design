@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useRef } from "react";
 
+import { assetPath } from "@/lib/paths";
 import type { Testimonial } from "@/types";
 
 const testimonials: Testimonial[] = [
@@ -89,7 +90,7 @@ export default function Testimonials() {
 
               <div className="mt-6 flex items-center gap-3">
                 <Image
-                  src={testimonial.avatar ?? ""}
+                  src={testimonial.avatar ? assetPath(testimonial.avatar) : ""}
                   alt={`${testimonial.author} portrait`}
                   width={40}
                   height={40}

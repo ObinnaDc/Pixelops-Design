@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
+import { assetPath } from "@/lib/paths";
+
 const presenterImage = "/assets/webinar/image-214-e44eace8.svg";
 
 export default function WebinarHero() {
@@ -34,7 +36,7 @@ export default function WebinarHero() {
 
         <div className="mt-10 w-full rounded-[20px] bg-[#fff0ed] p-0 sm:mt-14 sm:rounded-[24px] sm:p-6 lg:mt-14 lg:p-8">
           <Image
-            src={presenterImage}
+            src={assetPath(presenterImage)}
             alt="Webinar presenter with PixelOps content repurposing results"
             width={1176}
             height={718}

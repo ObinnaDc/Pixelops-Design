@@ -2,6 +2,8 @@ import { Linkedin, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+import { assetPath } from "@/lib/paths";
+
 const logoSrc = "/assets/vector-stroke-503a1128.svg";
 
 const legalLinks = [
@@ -21,7 +23,7 @@ export default function Footer() {
               className="inline-flex items-center gap-2.5 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-secondary focus-visible:ring-offset-2"
             >
               <Image
-                src={logoSrc}
+                src={assetPath(logoSrc)}
                 alt=""
                 width={44}
                 height={44}

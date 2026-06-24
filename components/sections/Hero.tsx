@@ -5,6 +5,8 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+import { assetPath } from "@/lib/paths";
+
 const showcaseItems = [
   {
     src: "/assets/3af007187342321.65861e72bc975-copy-d7380a09.png",
@@ -49,7 +51,10 @@ export default function Hero() {
     >
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-[url('/assets/background-pattern-5610124a.svg')] bg-cover bg-top opacity-70"
+        className="pointer-events-none absolute inset-0 bg-cover bg-top opacity-70"
+        style={{
+          backgroundImage: `url(${assetPath("/assets/background-pattern-5610124a.svg")})`,
+        }}
       />
 
       <div className="relative mx-auto flex w-full max-w-[1280px] flex-col items-center px-5 text-center sm:px-8 lg:px-10 xl:px-[60px]">
@@ -128,7 +133,7 @@ export default function Hero() {
             className="relative aspect-[1.25/1] w-[82vw] max-w-[520px] shrink-0 snap-center overflow-hidden rounded-xl bg-scraped-mist sm:w-[48vw] lg:w-[31vw] xl:w-[24vw]"
           >
             <Image
-              src={item.src}
+              src={assetPath(item.src)}
               alt={item.alt}
               fill
               priority={index === 0}
