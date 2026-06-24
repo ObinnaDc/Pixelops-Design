@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Font families extracted from scrape/fonts.txt. */
+  --font-inter: "Inter";
+  --font-sora: "Sora";
+  --font-hind: "Hind";
+  --font-arial: Arial;
+  --font-helvetica: Helvetica;
+  --font-times-new-roman: "Times New Roman";
+  --font-sans-serif: sans-serif;
+
+  /* Semantic brand values extracted from scrape/tokens.json. */
+  --brand-primary: 241 124 116;
+  --brand-secondary: 30 64 255;
+  --brand-dark: 26 28 33;
+  --brand-light: 246 242 234;
+  --brand-coral: 255 97 84;
+  --brand-orange: 255 90 0;
+  --brand-navy: 28 28 60;
+  --brand-muted: 102 112 133;
+  --brand-paper: 249 249 252;
+  --brand-surface: 255 255 255;
+  --brand-black: 5 7 11;
+
+  --color-primary: rgb(var(--brand-primary));
+  --color-primary-contrast: rgb(255 255 255);
+  --color-background: rgb(var(--brand-paper));
+  --color-surface: rgb(var(--brand-surface));
+  --color-text: rgb(var(--brand-ink));
+  --color-success: rgb(23 219 78);
+  --color-alert: rgb(250 181 21);
+  --color-destructive: rgb(255 0 0);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-inter), var(--font-arial), var(--font-helvetica),
+    var(--font-sans-serif);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body > main {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

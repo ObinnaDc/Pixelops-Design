@@ -1,0 +1,11 @@
+[Embed 1]
+tag: script
+src: https://pixelops.design/package/static_js/507d60c89156c8bce633c93fec864579c576abb259220a41763101ad98463dfd/nci-design-studio/live/webinar/xnull/xfalse/xfalse/xfalse/static.js
+title: 
+html: <script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/static_js/507d60c89156c8bce633c93fec864579c576abb259220a41763101ad98463dfd/nci-design-studio/live/webinar/xnull/xfalse/xfalse/xfalse/static.js"></script>
+
+[Embed 2]
+tag: script
+src: https://pixelops.design/package/dynamic_js/e77a0e64b16d1d9f7c91098d76b3cc5bfc8d5fcd2d703524eddf72510e5b8dc1/nci-design-studio/live/webinar/xnull/xfalse/xfalse/en_us/xfalse/xfalse/dynamic.js
+title: 
+html: <script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/dynamic_js/e77a0e64b16d1d9f7c91098d76b3cc5bfc8d5fcd2d703524eddf72510e5b8dc1/nci-design-studio/live/webinar/xnull/xfalse/xfalse/en_us/xfalse/xfalse/dynamic.js"></script>

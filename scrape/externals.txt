@@ -1,0 +1,16 @@
+<link rel="icon" href="https://b8d04333f91fb7d168e0a62086cea11b.cdn.bubble.io/f1710835051850x179294514271366500/Vector%20%28Stroke%29.svg">
+<link rel="image_src" href="https://b8d04333f91fb7d168e0a62086cea11b.cdn.bubble.io/f1713493150749x579937384310838700/Vector%20%28Stroke%29%20%281%29.svg">
+<link rel="stylesheet" href="https://b8d04333f91fb7d168e0a62086cea11b.cdn.bubble.io/f1763472176068x734842864917740900/Satoshi-Medium.css">
+<link rel="stylesheet" href="https://b8d04333f91fb7d168e0a62086cea11b.cdn.bubble.io/f1763472208471x406228251891547650/Satoshi-Regular.css">
+<link rel="stylesheet" href="https://b8d04333f91fb7d168e0a62086cea11b.cdn.bubble.io/f1763472267475x257548909549768960/Satoshi-Bold.css">
+<link rel="stylesheet" href="https://b8d04333f91fb7d168e0a62086cea11b.cdn.bubble.io/f1763472816656x955235239259054200/Satoshi-Black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind:500%7CHind:600%7CInter:300%7CInter:regular%7CInter:regular%7CInter:500%7CInter:500%7CInter:600%7CInter:700%7CInter:900%7CRoboto:regular%7CRoboto:600%7CRoboto:700%7CRoboto:900%7CSora:regular%7CSora:600%7CSora:700">
+<link rel="stylesheet" href="https://pixelops.design/package/run_css/62c707da66101174be7116855f22ad5e9a07875ca519eb7ffcf56c6d22db7234/nci-design-studio/live/index/xfalse/xfalse/run.css">
+<script src="https://cdn.jsdelivr.net/npm/feather-icons">
+<script src="https://cloud.umami.is/script.js">
+<script src="https://meta.cdn.bubble.io/f1678588430465x230578802325048350/icons.js">
+<script src="https://pixelops.design/package/dynamic_js/ab9f92e57e4ec1ca6c4cf4be978b82e938ffee19e3409347def93b57c215cb76/nci-design-studio/live/index/xnull/xfalse/xfalse/en_us/xfalse/xfalse/dynamic.js">
+<script src="https://pixelops.design/package/early_js/05ae9fe83d6b755291132aab9d325d70918aafd336da1bd91a41a31c8b25734b/early.js">
+<script src="https://pixelops.design/package/pre_run_jquery_js/dee903a9e36db713e4c86d0cdd96d921e37be0c1293ed8dee29e2e4d7713b9ff/pre_run_jquery.js">
+<script src="https://pixelops.design/package/run_js/8412d328b09c64ad26fe5f58f39e5697d8efb769346858d22aa58bc2385b4470/xfalse/x28/run.js">
+<script src="https://pixelops.design/package/static_js/4bce34dcf9991d514aaa4333b08af4e55c1d9b29be9c918395735d4441ea5c61/nci-design-studio/live/index/xnull/xfalse/xfalse/xfalse/static.js">

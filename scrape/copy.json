@@ -1,0 +1,748 @@
+{
+  "nav": {
+    "logo": "Pixelops",
+    "links": [
+      {
+        "text": "Home",
+        "href": "https://pixelops.design/"
+      },
+      {
+        "text": "Work",
+        "href": "https://pixelops.design/#work"
+      },
+      {
+        "text": "Webinar",
+        "href": "https://pixelops.design/webinar"
+      },
+      {
+        "text": "Services",
+        "href": "https://pixelops.design/index/#services"
+      },
+      {
+        "text": "How it works",
+        "href": "https://pixelops.design/index/#how"
+      },
+      {
+        "text": "Pricing",
+        "href": "https://pixelops.design/index/#pricing"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://pixelops.design/index/#faq"
+      }
+    ]
+  },
+  "hero": {
+    "headline": "Unlimited graphic design for your business",
+    "subheadline": "Our team of designers & dedicated account managers create a seamless extension to your marketing team or project.",
+    "cta_primary": "Schedule demo",
+    "cta_secondary": "See plans"
+  },
+  "sections": [
+    {
+      "id": "pixelops",
+      "heading": "Pixelops",
+      "body": "",
+      "items": [
+        "Get a $50 1-week trial"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "unlimited-graphic-design-for-your-business",
+      "heading": "Unlimited graphic design for your business",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "our-team-of-designers-dedicated-account-managers-create-a-seamless-extension-to-your-marketing-team-or-project",
+      "heading": "Our team of designers & dedicated account managers create a seamless extension to your marketing team or project.",
+      "body": "",
+      "items": [
+        "Schedule demo",
+        "See plans",
+        "Our process"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "3-simple-steps-to-limitless-graphic-design-services",
+      "heading": "3 Simple steps to limitless graphic design services",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "subscribe-to-a-plan-request-as-many-designs-as-you-d-like",
+      "heading": "Subscribe to a plan & request as many designs as you’d like.",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "receive-your-design-within-two-business-days-or-less",
+      "heading": "Receive your design within two business days or less.",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "we-ll-revise-the-designs-until-you-re-100-satisfied",
+      "heading": "We'll revise the designs until you're 100% satisfied.",
+      "body": "",
+      "items": [
+        "OUR SERVICES"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "comprehensive-design-capabilities",
+      "heading": "Comprehensive - Design Capabilities",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "packaging-design",
+      "heading": "Packaging design",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "logos-and-branding",
+      "heading": "Logos and branding",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "brochures-ebooks",
+      "heading": "Brochures & Ebooks",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "presentations",
+      "heading": "Presentations",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "branded-apparel",
+      "heading": "Branded Apparel",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "stickers-badges",
+      "heading": "Stickers & badges",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "brand-guidelines",
+      "heading": "Brand guidelines",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "signage",
+      "heading": "Signage",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "business-cards",
+      "heading": "Business cards",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "custom-illustrations",
+      "heading": "Custom illustrations",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "social-media-graphics",
+      "heading": "Social media graphics",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "icons",
+      "heading": "Icons",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "email-graphics",
+      "heading": "Email graphics",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "blog-graphics",
+      "heading": "Blog graphics",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "infographic-design",
+      "heading": "Infographic design",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "flyers",
+      "heading": "Flyers",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "invitation-design",
+      "heading": "Invitation design",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "and-much-more",
+      "heading": "And much more",
+      "body": "",
+      "items": [
+        "Our portfolio"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "we-transform-ideas-into-design-success-stories",
+      "heading": "We transform ideas into design success stories",
+      "body": "",
+      "items": [
+        "All",
+        "Logos and branding",
+        "Packaging design",
+        "Brochures & Ebooks",
+        "Branded Apparel",
+        "Social media graphics",
+        "Stickers & badges",
+        "Custom illustrations",
+        "Flyers",
+        "Presentations",
+        "Business cards",
+        "Signage",
+        "And much more",
+        "Invitation design",
+        "Brand guidelines"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "hawthorn-brewery",
+      "heading": "Hawthorn Brewery",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "promox-2024-trade-show",
+      "heading": "Promox 2024 Trade Show",
+      "body": "Logos and branding, Packaging design",
+      "items": [
+        "Logos and branding, Packaging design",
+        "Brochures & Ebooks"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "branded-apparel-for-peak-fitness",
+      "heading": "Branded Apparel for Peak Fitness",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "metro-luxe-real-estate",
+      "heading": "Metro Luxe Real Estate",
+      "body": "",
+      "items": [
+        "Logos and branding, Branded Apparel",
+        "Logos and branding"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "freshboost-juices",
+      "heading": "FreshBoost Juices",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "afrovibes-festival",
+      "heading": "AfroVibes Festival",
+      "body": "Packaging design, Logos and branding, Social media graphics",
+      "items": [
+        "Packaging design, Logos and branding, Social media graphics",
+        "Stickers & badges"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "stellar-horizon",
+      "heading": "Stellar Horizon",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "sunday-indie-vibes",
+      "heading": "Sunday Indie Vibes",
+      "body": "",
+      "items": [
+        "Custom illustrations",
+        "Flyers, Custom illustrations"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "focus-flow-productivity-app",
+      "heading": "Focus Flow - Productivity app",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "zoey-s-zoo",
+      "heading": "Zoey's Zoo",
+      "body": "",
+      "items": [
+        "Social media graphics",
+        "Custom illustrations"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "streetfit-apparel",
+      "heading": "StreetFit Apparel",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "paysmart",
+      "heading": "Paysmart",
+      "body": "",
+      "items": [
+        "Branded Apparel",
+        "Presentations"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "carter-winslow-llp",
+      "heading": "Carter & Winslow LLP",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "brightpath-tutors",
+      "heading": "Brightpath tutors",
+      "body": "",
+      "items": [
+        "Business cards, Logos and branding",
+        "Signage, And much more"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "apexcare-services",
+      "heading": "Apexcare Services",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "pulsefit",
+      "heading": "Pulsefit",
+      "body": "",
+      "items": [
+        "Signage"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "sweetescape",
+      "heading": "Sweetescape",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "pureglow-skincare",
+      "heading": "Pureglow skincare",
+      "body": "",
+      "items": [
+        "Packaging design",
+        "Flyers"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "nutrisnack",
+      "heading": "NutriSnack",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "swiftmove-logistics",
+      "heading": "Swiftmove Logistics",
+      "body": "",
+      "items": [
+        "Flyers"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "t-shirt-inscriptions",
+      "heading": "T-shirt Inscriptions",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "branded-t-shirts",
+      "heading": "Branded T-shirts",
+      "body": "Branded Apparel, Custom illustrations",
+      "items": [
+        "Branded Apparel, Custom illustrations"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "dreamwise-ebook-design",
+      "heading": "Dreamwise Ebook Design",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "wedding-invitation-templates",
+      "heading": "Wedding Invitation Templates",
+      "body": "",
+      "items": [
+        "Brochures & Ebooks, Flyers",
+        "Invitation design"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "brand-design-for-event-startup",
+      "heading": "Brand design for Event startup",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "social-media-graphics-for-web-awards-platform",
+      "heading": "Social media graphics for web awards platform",
+      "body": "",
+      "items": [
+        "Flyers, Social media graphics"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "brochure-design-for-luxe",
+      "heading": "Brochure design for Luxe",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "branding-for-primecrest",
+      "heading": "Branding for Primecrest",
+      "body": "Logos and branding, Brand guidelines",
+      "items": [
+        "Brochures & Ebooks",
+        "Logos and branding, Brand guidelines"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "rebranding-for-nocode-agency",
+      "heading": "Rebranding for Nocode agency",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "brand-design-for-obaro",
+      "heading": "Brand design for Obaro",
+      "body": "Logos and branding, Social media graphics",
+      "items": [
+        "Logos and branding, Social media graphics",
+        "Logos and branding, Branded Apparel",
+        "CUSTOMER STORIES"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "what-some-of-our-customers-say-about-pixelops",
+      "heading": "What some of our customers say about Pixelops",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "a-great-business-decision",
+      "heading": "“A great business decision”",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "been-a-breeze",
+      "heading": "“Been a breeze”",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "a-great-experience",
+      "heading": "“A great experience”",
+      "body": "All I can say is that it has been a breeze since I started using them for my spillover design work.\nIt has been a great experience working with Pixelops to get designs and branding done for my new startup\nPixelops has been a great help to my business as we have a continuous demand for design work from our clients. It has been a great business decision using them to save time and money.",
+      "items": [
+        "Marc",
+        "Femi",
+        "Signage Printer",
+        "Founder @",
+        "Sliced",
+        "John",
+        "Founder of",
+        "Classic Forms and Products",
+        "PRICING & PLANNING"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "design-subscription-plans-that-scale-with-your-business",
+      "heading": "Design subscription plans that scale with your business",
+      "body": "",
+      "items": [
+        "Most popular"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "lite",
+      "heading": "Lite",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "standard",
+      "heading": "Standard",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "pro",
+      "heading": "Pro",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "600",
+      "heading": "$600",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "1-000",
+      "heading": "$1,000",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "1-400",
+      "heading": "$1,400",
+      "body": "",
+      "items": [
+        "pause or cancel anytime",
+        "Start today",
+        "What’s included",
+        "1 request at a time",
+        "2 requests at a time",
+        "Unlimited requests at a time",
+        "Unlimited Requests",
+        "72 hour turnaround",
+        "48 hour turnaround",
+        "24 hour turnaround",
+        "Pause or Cancel Anytime",
+        "Task Management Portal",
+        "Shared Slack Channel",
+        "Dedicated account manager"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "are-you-interested-in-a-quoted-project",
+      "heading": "Are you interested in a quoted project?",
+      "body": "If your project doesn’t fit in the above plans, or if you’d like to discuss before making up your mind, book a call with us.",
+      "items": [
+        "Call Pixelops",
+        "REACH OUT TO US"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "redefine-the-way-you-approach-design",
+      "heading": "Redefine the way you approach design",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "book-a-call",
+      "heading": "Book a call",
+      "body": "",
+      "items": [],
+      "cta": ""
+    },
+    {
+      "id": "faq",
+      "heading": "FAQ",
+      "body": "What is the maximum number of requests I can have?",
+      "items": [
+        "How long does it take to setup?",
+        "What is the turn around time?",
+        "What is the maximum number of requests I can have?",
+        "What if I don't like a design?",
+        "How does the trial work?",
+        "Contact us",
+        "Let’s work together"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "pixelops",
+      "heading": "Pixelops",
+      "body": "Pixelops handles all of your business graphics & web design needs.",
+      "items": [
+        "Start today",
+        "Pixelops handles all of your business graphics & web design needs.",
+        "Pixelops Design Limited © 2026"
+      ],
+      "cta": "Terms & Conditions"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Lite",
+      "price": "$600",
+      "cadence": "",
+      "features": [
+        "/mo.",
+        "What’s included",
+        "1 request at a time",
+        "Unlimited Requests",
+        "72 hour turnaround",
+        "Task Management Portal"
+      ],
+      "cta": "Start today"
+    },
+    {
+      "plan": "Standard",
+      "price": "$1,000",
+      "cadence": "",
+      "features": [
+        "2 requests at a time",
+        "48 hour turnaround",
+        "Shared Slack Channel",
+        "Task Management Portal"
+      ],
+      "cta": ""
+    },
+    {
+      "plan": "Pro",
+      "price": "$1,400",
+      "cadence": "",
+      "features": [
+        "Unlimited requests at a time",
+        "24 hour turnaround",
+        "Dedicated account manager"
+      ],
+      "cta": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are you interested in a quoted project?",
+      "answer": "If your project doesn’t fit in the above plans, or if you’d like to discuss before making up your mind, book a call with us."
+    },
+    {
+      "question": "How long does it take to setup?",
+      "answer": ""
+    },
+    {
+      "question": "What is the turn around time?",
+      "answer": ""
+    },
+    {
+      "question": "What is the maximum number of requests I can have?",
+      "answer": ""
+    },
+    {
+      "question": "What if I don't like a design?",
+      "answer": ""
+    },
+    {
+      "question": "How does the trial work?",
+      "answer": ""
+    }
+  ],
+  "footer": {
+    "tagline": "Pixelops handles all of your business graphics & web design needs.",
+    "links": [
+      {
+        "text": "hello@pixelops.design",
+        "href": "mailto:hello@pixelops.design"
+      },
+      {
+        "text": "Terms & Conditions",
+        "href": "https://pixelops.design/terms"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://pixelops.design/privacy"
+      }
+    ],
+    "social": [],
+    "legal": "Pixelops Design Limited © 2026"
+  }
+}

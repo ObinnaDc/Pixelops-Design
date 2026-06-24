@@ -1,0 +1,7 @@
+"Times New Roman"
+Arial
+Helvetica
+Hind
+Inter
+Sora
+sans-serif
