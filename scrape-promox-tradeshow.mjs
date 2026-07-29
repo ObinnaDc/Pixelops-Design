@@ -2,7 +2,8 @@ import puppeteer from "puppeteer-core";
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const targetUrl = "https://pixelops.design/showcase/promox-tradeshow";
+const showcaseSlug = process.argv[2] || "promox-tradeshow";
+const targetUrl = `https://pixelops.design/showcase/${showcaseSlug}`;
 const outputDirectory = path.join(process.cwd(), "scrape", "showcase");
 const chromiumPath =
   "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe";
@@ -53,7 +54,7 @@ try {
   await revealLazyContent(page);
 
   await page.screenshot({
-    path: path.join(outputDirectory, "promox-tradeshow-desktop.png"),
+    path: path.join(outputDirectory, `${showcaseSlug}-desktop.png`),
     fullPage: true,
   });
 
@@ -127,17 +128,17 @@ try {
   });
 
   await fs.writeFile(
-    path.join(outputDirectory, "promox-tradeshow-rendered.html"),
+    path.join(outputDirectory, `${showcaseSlug}-rendered.html`),
     extracted.html,
     "utf8",
   );
   await fs.writeFile(
-    path.join(outputDirectory, "promox-tradeshow-copy.json"),
+    path.join(outputDirectory, `${showcaseSlug}-copy.json`),
     `${JSON.stringify(extracted.copy, null, 2)}\n`,
     "utf8",
   );
   await fs.writeFile(
-    path.join(outputDirectory, "promox-tradeshow-assets.txt"),
+    path.join(outputDirectory, `${showcaseSlug}-assets.txt`),
     `${extracted.imageUrls.join("\n")}\n`,
     "utf8",
   );
@@ -155,7 +156,7 @@ try {
   await revealLazyContent(page);
 
   await page.screenshot({
-    path: path.join(outputDirectory, "promox-tradeshow-mobile.png"),
+    path: path.join(outputDirectory, `${showcaseSlug}-mobile.png`),
     fullPage: true,
   });
 
