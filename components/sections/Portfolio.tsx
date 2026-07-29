@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 import { assetPath } from "@/lib/paths";
@@ -31,10 +32,11 @@ interface Project {
   title: string;
   image: string;
   categories: ProjectCategory[];
+  href?: string;
 }
 
 const projects: Project[] = [
-  { title: "Hawthorn Brewery", image: "/assets/sign-board-mockup-1-9cd8e019.png", categories: ["Logos and branding", "Packaging design"] },
+  { title: "Hawthorn Brewery", image: "/assets/sign-board-mockup-1-9cd8e019.png", categories: ["Logos and branding", "Packaging design"], href: "/showcase/hawthorn-brewery/" },
   { title: "Promox 2024 Trade Show", image: "/assets/untitled395-20241031165021-33aeee4b.png", categories: ["Brochures & Ebooks"] },
   { title: "Branded Apparel for Peak Fitness", image: "/assets/untitled400-20241103171114-680871b0.png", categories: ["Logos and branding", "Branded Apparel"] },
   { title: "Metro Luxe Real Estate", image: "/assets/business-card-front-page-0001-33a28450.jpg", categories: ["Logos and branding"] },
@@ -155,8 +157,15 @@ export default function Portfolio() {
           {visibleProjects.map((project, index) => (
             <article
               key={project.title}
-              className="w-full max-w-[480px] min-w-0 bg-white"
+              className="group relative w-full max-w-[480px] min-w-0 bg-white"
             >
+              {project.href ? (
+                <Link
+                  href={project.href}
+                  aria-label={`View ${project.title} project`}
+                  className="absolute inset-0 z-10 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-secondary focus-visible:ring-offset-4"
+                />
+              ) : null}
               <div className="relative aspect-[3/2] w-full max-w-[480px] overflow-hidden rounded-2xl bg-brand-dark/5">
                 <Image
                   src={assetPath(project.image)}
@@ -164,7 +173,7 @@ export default function Portfolio() {
                   fill
                   priority={index < 2}
                   sizes="(max-width: 767px) calc(100vw - 40px), 480px"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
                 />
               </div>
               <h3 className="mt-3 font-display text-lg font-semibold leading-tight tracking-[-0.02em] text-brand-dark sm:text-xl">

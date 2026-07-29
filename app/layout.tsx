@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import ConditionalFooter from "@/components/layout/ConditionalFooter";
-import Navbar from "@/components/layout/Navbar";
+import ConditionalNavbar from "@/components/layout/ConditionalNavbar";
 
 import "./globals.css";
 
@@ -56,7 +56,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <Navbar />
+        <ConditionalNavbar />
         <main>{children}</main>
         <ConditionalFooter />
       </body>
