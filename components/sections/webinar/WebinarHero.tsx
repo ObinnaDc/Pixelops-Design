@@ -7,10 +7,10 @@ const presenterImage = "/assets/webinar/image-214-e44eace8.svg";
 
 export default function WebinarHero() {
   return (
-    <section className="bg-white px-5 py-12 sm:px-0 sm:pb-12 sm:pt-24 lg:pb-14 lg:pt-[145px]">
+    <section className="bg-white px-5 py-12 sm:px-0 sm:pb-12 sm:pt-24 lg:pb-14 lg:pt-[108px]">
       <div className="w-full px-0 sm:px-8 lg:px-12 xl:px-20">
         <div className="mx-auto max-w-[1400px] text-center">
-          <h1 className="mx-auto max-w-[1320px] text-balance font-display text-[clamp(2.1rem,9vw,2.75rem)] font-bold leading-[1.08] tracking-[-0.055em] text-brand-dark sm:text-[56px] sm:leading-[1.2] lg:text-[72px] lg:leading-[1.6]">
+          <h1 className="mx-auto max-w-[944px] text-balance font-display text-[clamp(2.1rem,9vw,2.75rem)] font-bold leading-[1.08] tracking-[-0.055em] text-brand-dark sm:text-[56px] sm:leading-[1.2] lg:text-[56px] lg:leading-[1.45]">
             Your Webinar Costs $5,000 to
             <br className="hidden lg:block" /> Produce. then generates leads for
             <br className="hidden lg:block" /> only 48 hours

@@ -7,7 +7,12 @@ import Footer from "@/components/layout/Footer";
 export default function ConditionalFooter() {
   const pathname = usePathname();
 
-  if (pathname?.startsWith("/webinar")) return null;
+  if (
+    pathname?.startsWith("/webinar") ||
+    pathname?.startsWith("/showcase/")
+  ) {
+    return null;
+  }
 
   return <Footer />;
 }
