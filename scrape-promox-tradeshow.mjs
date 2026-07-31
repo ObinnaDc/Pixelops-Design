@@ -7,13 +7,20 @@ const targetUrl = `https://pixelops.design/showcase/${showcaseSlug}`;
 const outputDirectory = path.join(process.cwd(), "scrape", "showcase");
 const chromiumPath =
   "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe";
+const browserArgs = ["--no-sandbox", "--disable-setuid-sandbox"];
+
+if (process.env.PUPPETEER_HOST_RESOLVER_RULES) {
+  browserArgs.push(
+    `--host-resolver-rules=${process.env.PUPPETEER_HOST_RESOLVER_RULES}`,
+  );
+}
 
 await fs.mkdir(outputDirectory, { recursive: true });
 
 const browser = await puppeteer.launch({
   headless: true,
   executablePath: chromiumPath,
-  args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  args: browserArgs,
 });
 
 async function waitForIdle(page) {
