@@ -1,5 +1,6 @@
 const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
-const repoName = "Pixelops-Design";
+const repoName =
+  process.env.GITHUB_REPOSITORY?.split("/").at(-1) ?? "Pixelops-Design";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
